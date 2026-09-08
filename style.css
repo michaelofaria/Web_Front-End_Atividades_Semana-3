@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #b4cde6
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* Container Principal do Currículo */
+. curriculo-container {
+    width: 850rem;
+    background-color: #7a7a7a;
+    box-shadow: 0 0 15rem rgba(0,0,0,0.05);
+    margin: 40rem 0;
+    display: flex;
+    flex-direction: column;
+}
+ /* Bloco Superior (Header) */
+.cabecalho-superior {
+    background-color: #d8ebf2;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+/* Foto de Perfil */
+.foto-superior {
+    width: 200px;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-right: 40px;
+}
+
+.foto-superior img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Informações do Topo */
+.info-topo {
+    flex: 1;
+}
+
+.info-topo h1 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+    color: #2c2c2c;
+}
+
+.info-topo .cargo {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Grade de Contatos no Topo */
+.dados-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Estrutura de Duas Colunas de Conteúdo */
+.corpo-conteudo {
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+}
+
+/* Coluna da Esquerda (Mais estreita) */
+.coluna-esquerda {
+    width: 220px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.resumo-texto {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Coluna da Direita (Mais larga) */
+.coluna-direita {
+    flex: 1;
+}
+
+/* Títulos das Seções (com a linha preta embaixo) */
+h2.titulo-secao {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Alinhamento dos itens de Experiência/Educação */
+.item-historico {
+    margin-bottom: 25px;
+}
+
+.linha-topo-item {
+    display: flex;
+    justify-content: space-between; /* Joga o cargo para a esquerda e a data para a direita */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.linha-topo-item .data {
+    font-style: italic;
+    font-weight: normal;
+    color: #666;
+}
+
+.subtitulo-item {
+    font-size: 13px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.descricao-item {
+    font-size: 12px;
+    color: #777;
+    line-height: 1.6;
+    margin: 8px 0 0 0;
+}
+
+/* Listas sem bolinhas da coluna esquerda */
+.lista-simples {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-simples li {
+    margin-bottom: 8px;
+    color: #444;
+}
