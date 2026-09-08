@@ -1,0 +1,12 @@
+@import url(corpo.css);
+@import url(menu.css);
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #b4cde6
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
